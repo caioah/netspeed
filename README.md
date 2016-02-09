@@ -24,8 +24,9 @@ syntax: netspeed.sh [-c | --count <count>] [-s | --secure] [-m | --minutes <minu
 Examples
 --------
 ```
-$ ./netspeed.sh -c 20 -ds 60 --secure #ping count 20, secure connection, down-speed 60 mbits/s with output to stdout
-$ ./netspeed.sh --minutes 30 -ds 30 --loop > ~/netspeed.log #30 minutes loop, down-speed 30 mbits/s, looping, with output to ~/netspeed.log
+$ ./netspeed.sh #run once with default settings and output to stdout
+$ ./netspeed.sh -c 20 -ds 60 --secure #run once, ping count 20, secure connection, down-speed 60 mbits/s, output to stdout
+$ ./netspeed.sh --minutes 30 -ds 30 --loop > ~/netspeed.log #30 minutes loop, down-speed 30 mbits/s, output to ~/netspeed.log
 $ nohup ./netspeed.sh -ds 120 --loop 0<&- &> ~/netspeed.log & #run as daemon with output to ~/netspeed.log, down-speed 120 mbits/s
 ```
 
