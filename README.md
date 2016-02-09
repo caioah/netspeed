@@ -32,6 +32,7 @@ $ nohup ./netspeed.sh -ds 120 --loop 0<&- &> ~/netspeed.log & #run as daemon wit
 
 Output
 ------
+```
 Starting test @ <start-date>
 {<settings-output>}
 host: <id> - <target>
@@ -44,6 +45,7 @@ Download: <down-speed> Mbit/s
 Upload: <up-speed> Mbit/s
 (...)
 Stopping...
+```
 
 * <start-date> : 'date' command output when starting the script
 * <settings-output> : any changes to default settings will be displayed here
