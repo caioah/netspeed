@@ -54,6 +54,7 @@ Stopping...
 * \<date\>: timestamp of the current speedtest
 * \<loss\> : percentage of packets lost on ping
 * \<avg\> : Average ms of RTT
-* \<mdev\> : Connection jitter, also known as mdev on ping
+* \<mdev\> : Connection jitter, aka 'mdev' on ping
+* \<latency\> : Server latency of connection, aka 'reverse ping'
 * \<down-speed\> : Downstream speed in Mbits/s
 * \<up-speed\> : Upstream speed in Mbits/s
