@@ -47,13 +47,13 @@ Upload: <up-speed> Mbit/s
 Stopping...
 ```
 
-* <start-date> : 'date' command output when starting the script
-* <settings-output> : any changes to default settings will be displayed here
-* <id> : Host ID according to speedtest.net
-* <target> : Host name according to speedtest.net
-* <date>: timestamp of the current speedtest
-* <loss> : percentage of packets lost on ping
-* <avg> : Average ms of RTT
-* <mdev> : Connection jitter, also known as mdev on ping
-* <down-speed> : Downstream speed in Mbits/s
-* <up-speed> : Upstream speed in Mbits/s
+* \<start-date\> : 'date' command output when starting the script
+* \<settings-output\> : any changes to default settings will be displayed here
+* \<id\> : Host ID according to speedtest.net
+* \<target\> : Host name according to speedtest.net
+* \<date\>: timestamp of the current speedtest
+* \<loss\> : percentage of packets lost on ping
+* \<avg\> : Average ms of RTT
+* \<mdev\> : Connection jitter, also known as mdev on ping
+* \<down-speed\> : Downstream speed in Mbits/s
+* \<up-speed\> : Upstream speed in Mbits/s
