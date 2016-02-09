@@ -12,13 +12,13 @@ This is a simple bash script that combines speedtest and ping to produce more ex
 * curl
 
 # Usage
-syntax: netspeed.sh [-c | --count <count>] [-s | --secure] [-m | --minutes <minutes>] [-ds | --down-speed <mbits>]
+syntax: netspeed.sh [-c | --count \<count\>] [-s | --secure] [-m | --minutes \<minutes\>] [-ds | --down-speed \<mbits\>]
 [-l | --loop]
 
-* [-c | --count <count>] : Max icmp count when pinging. Higher values will make the script even slower. (default: 10)
+* [-c | --count \<count\>] : Max icmp count when pinging. Higher values will make the script even slower. (default: 10)
 * [-s | --secure] : HTTPS connection to speedtest server (speedtest option) (default: no)
-* [-m | --minutes <minutes>] : Time in minutes to sleep before looping. This is only enabled when combined with --loop. (default: 60)
-* [-ds | --down-speed <mbits>] : Downstream speed in Mbits/s to compare. This only affects percentage speed calculation at the end of each loop. Default percentage is 40% (as established by Anatel in Brazil, 2014). (default: disabled)
+* [-m | --minutes \<minutes\>] : Time in minutes to sleep before looping. This is only enabled when combined with --loop. (default: 60)
+* [-ds | --down-speed \<mbits\>] : Downstream speed in Mbits/s to compare. This only affects percentage speed calculation at the end of each loop. Default percentage is 40% (as established by Anatel in Brazil, 2014). (default: disabled)
 * [-l | --loop] : Enable looping at every specified amount of minutes. (default: disabled)
 
 Examples
