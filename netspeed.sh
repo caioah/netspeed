@@ -60,8 +60,7 @@ do
       output=`$cmd`
       echo "$output"
       if [[ $dspeed ]]; then
-         dl=`echo "$output" | grep Download`
-	 spd=`echo "$dl" | cut -d' ' -f2`
+         spd=`echo "$output" | grep Download | cut -d' ' -f2`
 	 pc=`bc -l <<< "($spd * 100)/$dspeed"`
 	 if [ `bc <<< "$pc<$percent"` -eq 1 ]; then
 	    echo "Speed lower than ${percent}% !!!"
